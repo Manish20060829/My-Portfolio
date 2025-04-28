@@ -8,14 +8,12 @@ html{
 
 body{
     background-color: #3b3530;
-    
+    margin: 0;
+    padding: 0;
     
 }
 
-h1,hr{
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
+
 
 
 
@@ -113,12 +111,14 @@ a:hover{
 
 
 
+
+
 .hr1{
     position: relative;
     top: 380px;
     border: 0.25rem solid #463f39;
     width: 100vw;
-    right: 20px;   
+    
 }
 
 .hr2{
@@ -126,7 +126,7 @@ a:hover{
     top: 580px;
     border: 0.25rem solid #463f39;
     width: 100vw;
-    right: 20px;
+    
     
     
     
@@ -137,7 +137,7 @@ a:hover{
     top: 980px;
     border: 0.25rem solid #463f39;
     width: 100vw;
-    right: 20px;
+    
 
 
 }
@@ -147,8 +147,7 @@ a:hover{
     top: 2000px;
     border: 0.25rem solid #463f39;
     width: 100vw;
-    right: 20px;
-
+  
 }
 
 .courses{
@@ -338,6 +337,7 @@ footer{
     width: 100vw;
     right: 5px;
     height:100px;
+    max-width: 100%;
 }
 
 footer h2{
