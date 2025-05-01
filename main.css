@@ -1,19 +1,21 @@
+
 html{
     overscroll-behavior: none;
-    overflow-x: hidden;
     margin: 0;
     padding: 0;
+    
 
 }
 
 body{
+    overscroll-behavior: none;
     background-color: #3b3530;
     margin: 0;
     padding: 0;
+    width: 100%;
+    overflow-x: hidden;
     
 }
-
-
 
 
 
@@ -30,15 +32,13 @@ body{
     align-items: center;    
     font-family: 'JetBrains Mono', monospace; font-weight: 500;
     z-index: 2;
-    
-
 
     }
     
 a {
 color:  #ccc;
-font-size: 2.19rem;
-margin: 6.87rem;
+font-size: 1.19rem;
+margin: 5%;
 transition: 0.5s
 
 }
@@ -51,7 +51,7 @@ a:hover{
     position: relative;
     top: 200px;
     text-align: center;
-    font-size: 7.5rem;
+    font-size: 3.75rem;
     font-family: 'Inter', sans-serif; font-weight: 500;
     color: white;
 
@@ -60,11 +60,11 @@ a:hover{
 
 .picture1 {
     position: relative; 
-    height: 300px;
-    width: 300px;
+    height: 20%;
+    width: 20%;
     top: 230px;
     left: 50%;
-    transform: translateX(-48%);
+    transform: translateX(-50%);
     border-radius: 100%; 
     border: 8px solid #5A514E; 
     object-fit: cover; 
@@ -80,7 +80,7 @@ a:hover{
     color: white;
     font-family: 'Inter', sans-serif; 
     font-weight: 500;
-    font-size: 7.5rem; 
+    font-size: 3.25rem; 
 
 }
 
@@ -89,7 +89,7 @@ a:hover{
     text-align: center;
     color: white;
     font-family: 'Fira Code', 'monospace';
-    font-size: 3.125rem;
+    font-size: 1.5rem;
     top: 500px;
     
     
@@ -99,13 +99,13 @@ a:hover{
 .p1{
     color: white;
     position: relative;
-    height: 12.5rem;
+    height: 20%;
     text-align: center;
-    width: 75rem;
+    width: 75%;
     top: 505px;
-    font-size: 1.875rem;
+    font-size: 1.4rem;
     left: 50%;
-    transform: translateX(-48%);
+    transform: translateX(-50%);
     font-family: 'Fira Code', 'monospace'
 }
 
@@ -117,7 +117,7 @@ a:hover{
     position: relative;
     top: 380px;
     border: 0.25rem solid #463f39;
-    width: 100vw;
+    
     
 }
 
@@ -125,7 +125,6 @@ a:hover{
     position: relative;
     top: 580px;
     border: 0.25rem solid #463f39;
-    width: 100vw;
     
     
     
@@ -136,7 +135,7 @@ a:hover{
     position: relative;
     top: 980px;
     border: 0.25rem solid #463f39;
-    width: 100vw;
+
     
 
 
@@ -146,7 +145,6 @@ a:hover{
     position: relative;
     top: 2000px;
     border: 0.25rem solid #463f39;
-    width: 100vw;
   
 }
 
@@ -154,8 +152,8 @@ a:hover{
     color: white;
     position: relative;
     text-align: center;
-    top: 575px;
-    font-size: 2.5rem;
+    top: 495px;
+    font-size: 1.25rem;
     font-family: 'Fira Code', 'monospace';
 
 
@@ -165,12 +163,12 @@ a:hover{
     color: white;
     position: relative;
     text-align: center;
-    top: 575px;
-    font-size: 1.875rem;
-    width: 50rem;
-    height: 15.63rem;
+    top: 515px;
+    font-size: 1.25rem;
+    width: 50%;
+    height: 50%;
     left: 50%;
-    transform: translateX(-48%);
+    transform: translateX(-50%);
     font-family: 'Fira Code', 'monospace';
 
 }
@@ -180,7 +178,7 @@ a:hover{
     text-align: center;
     color: white;
     font-family: 'Fira Code', 'monospace';
-    font-size: 2.8rem;
+    font-size: 1.25rem;
     top: 550px; 
 }
 
@@ -189,11 +187,11 @@ a:hover{
     position: relative;
     text-align: center;
     top: 555px;
-    font-size: 1.88rem;
-    width: 50rem;
-    height: 15.63rem;
+    font-size: 1.25rem;
+    width: 50%;
+    height: 15%;
     left: 50%;
-    transform: translateX(-48%);
+    transform: translateX(-50%);
     font-family: 'Fira Code', 'monospace';
 
     
@@ -207,32 +205,32 @@ a:hover{
     top: 700px;
     text-align: center;
     font-family: "Fira Code", 'monospace';
-    font-size: 3.125rem; 
+    font-size: 1.5rem; 
 }
 
 .container{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     position: relative;
     top: 800px;
-    justify-content: center;
+    justify-content: center; 
 
 }
 
 .container img{
-    height: 16rem;
-    width: 16rem;
-    margin: 0 4.5rem;
-    transition: 0.5s;
-    
+    height: 7rem;
+    width: 7rem;
+    margin: 4.5rem 4.5rem;
+    transition: 0.5s;   
 }
+
 .container div{
     transition: 0.5s;
 }
 
 
 .container div:hover{
-    transform: scale(1.2);
     transform: translateY(-20%);
 
 }
@@ -240,13 +238,12 @@ a:hover{
 
 
 .container h3{
-
     position: relative;
     top: 30px;
     text-align: center;
     color: white;
     font-family: "Inter", "sans-serif";
-    font-size: 3.125rem;
+    font-size: 2.0rem;
     
     
 }
@@ -257,7 +254,7 @@ a:hover{
     text-align: center;
     color: white;
     font-family: "Fira Code", 'monospace';
-    font-size: 3.125rem; 
+    font-size: 1.5rem; 
 
 }
 
@@ -267,8 +264,8 @@ a:hover{
     text-align: center;
     color: white;
     font-family: "Fira Code", 'monospace';
-    font-size: 3.125rem; 
-
+    font-size: 1.5rem; 
+    
 }
 
 .email{
@@ -277,7 +274,8 @@ a:hover{
     top: 30px;
     text-align: center;
     font-family: "Fira Code", 'monospace';
-    font-size: 3.125rem;
+    font-size: 1.5625rem;
+    
     
     
 
@@ -292,30 +290,32 @@ a:hover{
 
 .container2{
     display: flex;
-    flex-wrap: row;
+    flex-direction: row;
     position: relative;
-    top: 2000px;
+    top: 2050px;
     justify-content: center;
-    right: 20px
+    margin-bottom: 5 rem;
+    gap: 80px;
+    right:10px;
 
 }
 
-.container2 img{
-    margin: 0 0rem;
-    
-}
 
 .github{
-    height: 6.6rem;
-    width: 6.6rem;
+    position: relative;
+    top: 20px;
+    height: 3.3rem;
+    width: 3.3rem;
+    
+
 
 }
 
 .linkedin{
     position: relative;
-    top: 20px;
-    height: 5.4rem;
-    width: 5.4rem;
+    top: 25px;
+    height: 2.7rem;
+    width: 2.7rem;
 
 }
 
@@ -335,9 +335,9 @@ footer{
     top:2000px;
     width: 100%;
     width: 100vw;
-    right: 5px;
     height:100px;
     max-width: 100%;
+    margin-top: 5rem;
 }
 
 footer h2{
@@ -345,7 +345,7 @@ footer h2{
     background-color: #2F2A28;
     text-align: center;
     position: relative;
-    top: 40px;
+    top: 30px;
     font-family: 'JetBrains Mono', monospace; font-weight: 500;
 
 }
@@ -356,9 +356,286 @@ footer h2{
     text-align: center;
     color: white;
     font-family: "Fira Code", 'monospace';
-    font-size: 3.125rem; 
+    font-size: 2.00rem; 
 
 }
+
+@media (max-width: 600px){
+
+
+    .title{
+        position: relative;
+        top: 200px;
+        text-align: center;
+        font-size: 1.25rem;
+        font-family: 'Inter', sans-serif; font-weight: 500;
+        color: white;
+    
+    
+    }
+    
+    .picture1 {
+        position: relative; 
+        height: 20%;
+        width: 20%;
+        top: 230px;
+        left: 50%;
+        transform: translateX(-50%);
+        border-radius: 100%; 
+        border: 4px solid #5A514E; 
+        object-fit: cover; 
+        background-color: transparent;
+    
+    }
+    
+    
+    .bottom{
+        position: relative;
+        top: 260px;
+        text-align: center;
+        color: white;
+        font-family: 'Inter', sans-serif; 
+        font-weight: 500;
+        font-size: 1.25rem; 
+        left: 9px;
+    
+    }
+
+    a {
+    color:  #ccc;
+    font-size: 0.6rem;
+    transition: 0.5s
+    }
+
+    .ptitle{
+        position: relative;
+        text-align: center;
+        color: white;
+        font-family: 'Fira Code', 'monospace';
+        font-size: 0.75rem;
+        top: 500px; 
+        
+    }
+
+    .p1{
+        color: white;
+        position: relative;
+        height: 20%;
+        text-align: center;
+        width: 75%;
+        top: 505px;
+        font-size: 0.7rem;
+        left: 50%;
+        transform: translateX(-50%);
+        font-family: 'Fira Code', 'monospace'
+    }
+
+    .courses{
+        color: white;
+        position: relative;
+        text-align: center;
+        top: 515px;
+        font-size: 0.55rem;
+        font-family: 'Fira Code', 'monospace';
+    
+    
+    }
+
+    .course{
+        color: white;
+        position: relative;
+        text-align: center;
+        top: 515px;
+        font-size: 0.55rem;
+        width: 50%;
+        height: 50%;
+        left: 50%;
+        transform: translateX(-50%);
+        font-family: 'Fira Code', 'monospace';
+    
+    }
+
+    .experience{
+        position: relative;
+        text-align: center;
+        color: white;
+        font-family: 'Fira Code', 'monospace';
+        font-size: 0.55rem;
+        top: 520px; 
+    }
+    
+    .experiences{
+        color: white;
+        position: relative;
+        text-align: center;
+        top: 525px;
+        font-size: 0.55rem;
+        width: 50%;
+        height: 15%;
+        left: 50%;
+        transform: translateX(-50%);
+        font-family: 'Fira Code', 'monospace';
+    
+        
+    }
+
+    .hr1{
+        position: relative;
+        top: 340px;
+        border: 0.12rem solid #463f39;
+        
+        
+    }
+
+    .skills-title{
+        color: white;
+        position: relative;
+        top: 700px;
+        text-align: center;
+        font-family: "Fira Code", 'monospace';
+        font-size: 0.55rem; 
+    }
+
+    .hr2{
+        position: relative;
+        top: 560px;
+        border: 0.12rem solid #463f39; 
+    }
+
+    .hr3{
+        position: relative;
+        top: 950px;
+        border: 0.12rem solid #463f39;
+    
+        
+    
+    
+    }
+
+    .hr4{
+        position: relative;
+        top: 1980px;
+        border: 0.12rem solid #463f39;
+      
+    }
+
+    .container img{
+        height: 4.5rem;
+        width: 4.5rem;
+        margin: 5.5rem 5.5rem;
+        transition: 0.5s;
+        
+    }
+
+    .projects-title{
+        position: relative;
+        top: 1100px;
+        text-align: center;
+        color: white;
+        font-family: "Fira Code", 'monospace';
+        font-size: 0.55rem; 
+    
+    }
+
+    .projects p{
+        position: relative;
+        top: 1200px;
+        text-align: center;
+        color: white;
+        font-family: "Fira Code", 'monospace';
+        font-size: 0.75rem; 
+    
+    }
+
+    .contacts-title{
+        position: relative;
+        top: 2050px;
+        text-align: center;
+        color: white;
+        font-family: "Fira Code", 'monospace';
+        font-size: 0.75rem; 
+      
+    
+    }
+
+    .email{
+        position:relative;
+        color:#ccc;
+        top: 30px;
+        text-align: center;
+        font-family: "Fira Code", 'monospace';
+        font-size: 0.5625rem;
+    
+    }
+    
+    
+    
+    .mail:hover{
+        color: white;
+        
+    }
+    
+    .container2{
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        top: 2050px;
+        justify-content: center;
+        margin-bottom: 5 rem;
+        gap: 40px;
+        left: 0px;
+    
+    }
+    
+    
+    
+    
+    
+    .github{
+        position: relative;
+        top: 25px;
+        height: 1.45rem;
+        width: 1.45rem;
+        
+    
+    
+    }
+    
+    .linkedin{
+        position: relative;
+        top: 25px;
+        height: 1.35rem;
+        width: 1.35rem;
+    
+    }
+
+    footer h2{
+        color: #ccc;
+        background-color: #2F2A28;
+        text-align: center;
+        position: relative;
+        top: 30px;
+        font-family: 'JetBrains Mono', monospace; font-weight: 500;
+        font-size: 0.75rem;
+    
+    }
+
+}
+
+@media (max-width: 495.5px){ 
+
+    .container div:hover{
+        transform: translateY(0%);
+    
+    }
+
+
+
+
+}
+
+
+
 
 
 
